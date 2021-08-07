@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p , h1 , h2 , h3 , h4 , h5 , a , li{
+  font-weight: normal;
+  font-weight: 700;
+} 
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+body {
+  font-family:'Montserrat',"Noto Sans Japanese", sans-serif; 
+  font-size: 100%;
+   -webkit-text-size-adjust:100%;
+}
+video {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+/* ここまでリセット */
+
+
+
+/* js */
+.fadein {
+  opacity: 0;
+  transform : translate(0px, 50px);
+  transition : all 600ms;
+}
+
+.fadein.scrollin{
+  opacity: 1;
+  transform: translate(0, 0px);
+}
+
+.fadein2 {
+  opacity: 0;
+  transform : translate(0px, 0px);
+  transition : all 1200ms;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fadein2.scrollin{
+  opacity: 1;
+  transform: translate(0, 0px);
+  width: 100%;
+}
+/* js */
