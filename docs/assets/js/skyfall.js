@@ -7,10 +7,14 @@ $(function () {
 
 
 
+// var buyer = getParam('_buyer')
+
+
+
 
 $(".sanka_btn").click(function(){
-	console.log("admage_cv('admage_ukagency_xuid', 'https://ad.skyflag.jp/ad', '_buyer="+ getParam('_buyer') +"&_article="+ getParam('_article') +"&_price={price}&_buid={buid}')");
-	admage_cv('admage_ukagency_xuid', 'https://ad.skyflag.jp/ad', '_buyer='+ getParam('_buyer') +'&_article='+ getParam('_article') +'&_price={price}&_buid={buid}');
+		console.log("admage_cv('admage_ukagency_xuid', 'https://ad.skyflag.jp/ad', '_buyer=522&_article=7467&_price={price}&_buid={buid}')");
+		admage_cv('admage_ukagency_xuid', 'https://ad.skyflag.jp/ad', '_buyer=522&_article=7467&_price={price}&_buid={buid}');
 });
 
 
