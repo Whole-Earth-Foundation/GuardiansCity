@@ -633,10 +633,20 @@ background-size: auto 100%, auto 100%;
 	    font-size: 2rem;
 	    padding: 53px 56px;
 	    color: #b11c14;
+	    span {
+	    	font-size: 1.4rem;
+	    	display: inline-block;
+	    	line-height: 1.8;
+	    }
 	    @media screen and (max-width:768px){
 	    	padding: 5vw;
 	    	font-size: 1.4rem;
 	    	line-height: 1.8;
+	    	span {
+		    	font-size: 1rem;
+		    	display: inline-block;
+		    	line-height: 1.8;
+		    }
 	    }
 	}
 	.inner {
@@ -669,6 +679,16 @@ background-size: auto 100%, auto 100%;
 		}
 		img {
 			width: 100%;
+		}
+	}
+
+
+	&.enchou {
+		h1 {
+			width: 46%;
+			@media screen and (max-width:768px){
+				width: 80%;
+			}
 		}
 	}
 
@@ -712,6 +732,24 @@ background-size: auto 100%, auto 100%;
 		}
 	}
 
+	&.enchou {
+
+		.eb_1 {
+			transform:translate(-45%,0);
+			@media screen and (max-width:768px){
+				transform:translate(-70%,0);
+			}
+		}
+
+		.eb_2 {
+			transform:translate(45%,0);
+			@media screen and (max-width:768px){
+				transform:translate(70%,0);
+			}
+		}
+
+	}
+
 	.ect_1 {
 		background-color: #fde9d9;
 		color: #970e0b;
@@ -745,12 +783,27 @@ background-size: auto 100%, auto 100%;
 
 
 	.ev_bounty_btn {
+
+		h3 {
+			width: 30%;
+			@media screen and (max-width:768px){
+				width: 40%;
+			}
+			margin: auto;
+			img {
+				width: 100%;
+			}
+		}
+
 		width: 100%;
 		max-width: 900px;
 		margin: auto;
 		position: relative;
 		z-index: 500;
 		margin-bottom: 36px;
+		@media screen and (max-width:768px){
+			margin-bottom: 24px;
+		}
 		ul {
 			display: flex;
 			li {
@@ -764,6 +817,50 @@ background-size: auto 100%, auto 100%;
 					
 				}
 			}
+		}
+	}
+
+	.ev_bounty_old {
+		h3 {
+			text-align: center;
+			margin-bottom: 24px;
+		}
+
+		width: 100%;
+		max-width: 900px;
+		margin: auto;
+		position: relative;
+		z-index: 500;
+		margin-bottom: 56px;
+
+		@media screen and (max-width:768px){
+			margin-bottom: 32px;
+		}
+
+		ul {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			max-width: 600px;
+			margin: auto;
+			@media screen and (max-width:768px){
+				width: 90%;
+			}
+			li {
+				width: 48%;
+				img {
+					transition: all .25s ease;
+				}
+				a:hover {
+					opacity: 1;
+					img {transform:scale(1.07);}
+					
+				}
+			}
+		}
+
+		.ev_caption {
+			text-align: center;
 		}
 	}
 
@@ -803,11 +900,19 @@ background-size: auto 100%, auto 100%;
 			@media screen and (max-width:768px){
 				font-size: 1.8rem;
 				margin-bottom: 5vw;
+				&.kikan {
+					font-size: 1.5rem;
+				}
 			}
 		}
 
 		h5 {
 			font-size: 1.5rem;
+			span {
+				@media screen and (max-width:768px){
+					font-size: 1rem;
+				}
+			}
 		}
 
 		h5 + h5 {
@@ -978,9 +1083,16 @@ background-size: auto 100%, auto 100%;
 			color: #970e0b;
 			width: 94%;
 			margin: auto;
+			a {
+				color: #970e0b;
+			}
 			@media screen and (max-width:768px){
 				width: 100%;
-				padding: 10vw;
+				padding:5vw;
+
+				& + .ev_caption {
+					padding-top: 0;
+				}
 			}
 			box-sizing:border-box;
 		}

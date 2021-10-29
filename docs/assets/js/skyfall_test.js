@@ -13,8 +13,8 @@ $(function () {
 
 
 $(".sanka_btn").click(function(){
-        console.log("admage_cv('admage_ukagency_xuid', 'https://ad.skyflag.jp/ad','_buyer=522&_cvpoint=8&_price=&_buid=')");
-        admage_cv('admage_ukagency_xuid', 'https://ad.skyflag.jp/ad','_buyer=522&_cvpoint=8&_price=&_buid=');
+		console.log("admage_cv('admage_ukagency_xuid', 'https://ad.skyflag.jp/ad','_buyer=522&_cvpoint=8&_price=&_buid=')");
+		admage_cv('admage_ukagency_xuid', 'https://ad.skyflag.jp/ad','_buyer=522&_cvpoint=8&_price=&_buid=');
 });
 
 
