@@ -778,6 +778,19 @@ p:last-child {
   z-index: 500;
   margin-bottom: 56px;
 }
+#ev_bounty .ev_bounty_old h2 {
+  width: 46%;
+  margin: auto;
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 768px) {
+  #ev_bounty .ev_bounty_old h2 {
+    width: 56%;
+  }
+}
+#ev_bounty .ev_bounty_old h2 img {
+  width: 100%;
+}
 #ev_bounty .ev_bounty_old h3 {
   text-align: center;
   margin-bottom: 24px;
