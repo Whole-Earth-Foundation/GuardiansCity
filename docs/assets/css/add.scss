@@ -79,7 +79,8 @@ font-weight: $w;
 	overflow: hidden;
 }
 
-.btn-line {
+.btn-line,
+.btn-wh {
 	transition: all .3s;
 }
 
@@ -104,6 +105,29 @@ font-weight: $w;
 			top: 14px;
 		}
 	}
+}
+
+.btn-wh.gb {
+	position: relative;
+	&:before {
+		content: "";
+		background-image: url("../img/icon_link.svg");
+		display: block;
+		width: 15px;
+		height: 16px;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		position: absolute;
+		top: 10px;
+		right: 30px;
+
+		@media screen and (max-width:768px) {
+			width: 11px;
+			height: 12px;
+			top: 14px;
+		}
+	}
+
 }
 
 .link_line {
@@ -186,6 +210,12 @@ aside{
 	.btn-def:hover {
 		box-shadow:  		0px 0px 0  #2d1c60;
 		-webkit-box-shadow:	0px 0px 0  #2d1c60;
+		transform:translate(6px,6px);
+	}
+
+	.btn-wh:hover {
+		box-shadow:  		0px 0px 0  #580806;
+		-webkit-box-shadow:	0px 0px 0  #580806;
 		transform:translate(6px,6px);
 	}
 }

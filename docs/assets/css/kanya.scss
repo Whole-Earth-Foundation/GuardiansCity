@@ -107,9 +107,11 @@ kanya_join
 
 .ky_join-list {
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   margin-top: 48px;
   margin-bottom: 35px;
+  max-width: 1400px;
+  margin: auto;
 
   @include mq('sp') {
     display: block;
@@ -119,17 +121,25 @@ kanya_join
 }
 
 .ky_join-item {
-  margin-right: 2%;
+  width: 32%;
+  @include mq('sp') {
+    width: 100%;
+  }
+  // margin-right: 2%;
   background: $main-color;
-  padding: 42px 56px 43px 56px;
+  padding: 42px 10px 43px 10px;
   color: $font-color;
   text-align: center;
   font-size: 1.5rem;
   line-height: 1.05;
+  h4 {
+    font-size: 1.7rem;
+    letter-spacing: 0.1em;
+  }
 
   @include mq('sp') {
     margin-right: 0;
-    padding: 0 0 10vw;
+    padding: 7vw 0 10vw;
     p {
       font-size: 1.5rem !important;
     }
@@ -158,13 +168,14 @@ kanya_join
 
 .ky_join-item-title {
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 48px;
 
 }
 
 .ky_join-item:nth-child(3) {
   .ky_join-item-title {
     margin-bottom: 0;
+    line-height: 1.5;
   }
 }
 

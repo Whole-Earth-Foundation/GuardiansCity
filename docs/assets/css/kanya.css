@@ -88,11 +88,13 @@ kanya_join
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 48px;
   margin-bottom: 35px;
+  max-width: 1400px;
+  margin: auto;
 }
 @media screen and (max-width: 767px) {
   .ky_join-list {
@@ -103,9 +105,9 @@ kanya_join
 }
 
 .ky_join-item {
-  margin-right: 2%;
+  width: 32%;
   background: #970e0b;
-  padding: 42px 56px 43px 56px;
+  padding: 42px 10px 43px 10px;
   color: #fff;
   text-align: center;
   font-size: 1.5rem;
@@ -113,8 +115,17 @@ kanya_join
 }
 @media screen and (max-width: 767px) {
   .ky_join-item {
+    width: 100%;
+  }
+}
+.ky_join-item h4 {
+  font-size: 1.7rem;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+  .ky_join-item {
     margin-right: 0;
-    padding: 0 0 10vw;
+    padding: 7vw 0 10vw;
   }
   .ky_join-item p {
     font-size: 1.5rem !important;
@@ -137,11 +148,12 @@ kanya_join
 
 .ky_join-item-title {
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 48px;
 }
 
 .ky_join-item:nth-child(3) .ky_join-item-title {
   margin-bottom: 0;
+  line-height: 1.5;
 }
 
 .ky_join-announce {
