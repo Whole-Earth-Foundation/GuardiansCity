@@ -169,6 +169,33 @@ p:last-child {
   max-width: 1400px;
   margin: auto;
 }
+.ev_kv_main .inner .kv_bannar {
+  position: absolute;
+  width: 27%;
+  bottom: 5%;
+  left: 20%;
+}
+@media screen and (max-width: 768px) {
+  .ev_kv_main .inner .kv_bannar {
+    width: 90vw;
+    bottom: 28vw;
+    left: 5vw;
+  }
+}
+.ev_kv_main .inner .kv_bannar img {
+  width: 100%;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+@media screen and (min-width: 769px) {
+  .ev_kv_main .inner .kv_bannar a:hover {
+    opacity: 1;
+  }
+  .ev_kv_main .inner .kv_bannar a:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
 .ev_kv_main .inner .kv_bg {
   width: 100%;
 }
@@ -351,8 +378,14 @@ p:last-child {
 }
 @media screen and (max-width: 768px) {
   #ev_mission .comment {
-    margin-bottom: 5vw;
     line-height: 1.4;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5vw;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 21px 16px;
+    border-radius: 10px;
   }
 }
 #ev_mission .map {
@@ -1433,6 +1466,9 @@ p:last-child {
     padding-top: 10vw;
   }
 }
+#ev_back .tw_link {
+  padding-top: 10px !important;
+}
 
 #ev_cv .inner {
   position: relative;
@@ -1445,6 +1481,14 @@ p:last-child {
   position: absolute;
   top: 50px;
   left: 50px;
+}
+#ev_cv .ev_cv_box .tw_link {
+  text-align: left;
+  background-color: #000;
+  display: inline-block;
+  line-height: 1;
+  padding: 10px;
+  margin-top: 5px;
 }
 @media screen and (max-width: 768px) {
   #ev_cv .ev_cv_box {
@@ -1498,6 +1542,45 @@ p:last-child {
 }
 #ev_knav nav .kn2 {
   background-color: #06c755;
+}
+#ev_knav p {
+  text-align: right;
+  padding-top: 5px;
+}
+@media screen and (max-width: 768px) {
+  #ev_knav p {
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 1.1rem;
+  }
+}
+#ev_knav p a {
+  text-decoration: underline;
+  color: #fdfa00;
+}
+
+.tw_link {
+  text-align: center;
+  padding-top: 5px;
+  color: #fff !important;
+  font-size: 1.3rem;
+}
+.tw_link.bk {
+  color: #970e0b !important;
+}
+.tw_link.bk a {
+  color: #480806 !important;
+}
+@media screen and (max-width: 768px) {
+  .tw_link {
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 1.1rem;
+  }
+}
+.tw_link a {
+  text-decoration: underline;
+  color: #fdfa00;
 }
 
 #notes .con-01:after {

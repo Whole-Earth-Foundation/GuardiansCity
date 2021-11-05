@@ -196,6 +196,35 @@ p{
 		width: 100%;
 		max-width: 1400px;
 		margin: auto;
+
+
+		.kv_bannar {
+			position: absolute;
+			width: 27%;
+		    bottom: 5%;
+		    left: 20%;
+		    @media screen and (max-width:768px){
+				width: 90vw;
+			    bottom: 28vw;
+			    left: 5vw;
+			}
+			img {
+				width: 100%;
+				transition: all .25s ease;
+			}
+
+			@media screen and (min-width:769px){
+				a:hover {
+					opacity: 1;
+
+					img {
+						transform:scale(1.1);
+					}
+				}
+			}
+		}
+
+
 		
 		.kv_bg {
 			width: 100%;
@@ -391,8 +420,15 @@ p{
 		padding:21px 27px;
     	font-weight: 600;
     	@media screen and (max-width:768px){
-    		margin-bottom: 5vw;
+    		
     		line-height: 1.4;
+    		width: 100%;
+    		margin: auto;
+    		margin-bottom: 5vw;
+    		box-sizing:border-box;
+    		padding:21px 16px;
+    		border-radius: 10px;
+
     	}
 	}
 
@@ -1159,6 +1195,8 @@ background-size: auto 100%, auto 100%;
 .ky_inner {
 	position: relative;
 
+
+
 	.evmh_2 {
 		width: 400px;
 		position: absolute;
@@ -1482,6 +1520,10 @@ background-size: auto 100%, auto 100%;
 		}
 	}
 
+	.tw_link {
+		padding-top: 10px !important;
+	}
+
 
 }
 
@@ -1500,6 +1542,14 @@ background-size: auto 100%, auto 100%;
 		position: absolute;
 		top: 50px;
 		left: 50px;
+		.tw_link {
+			text-align: left;
+			background-color: #000;
+			display: inline-block;
+			line-height: 1;
+			padding: 10px;
+			margin-top: 5px;
+		}
 		@media screen and (max-width:768px){
 			width: 90vw;
 			left: 5vw;
@@ -1558,8 +1608,45 @@ background-size: auto 100%, auto 100%;
 		}
 	}
 
+	p {
+		text-align: right;
+		padding-top: 5px;
+		@media screen and (max-width:768px){
+			padding: 5px;
+			padding-top: 10px;
+			font-size: 1.1rem;
+		}
+		a {
+			text-decoration: underline;
+			color: #fdfa00;
+		}
+	}
 
 
+
+}
+
+
+.tw_link {
+	text-align: center;
+	padding-top: 5px;
+	color: #fff !important;
+	&.bk {
+		color: #970e0b !important;
+		a {
+			color: #480806 !important;
+		}
+	}
+	font-size: 1.3rem;
+	@media screen and (max-width:768px){
+		padding: 5px;
+		padding-top: 10px;
+		font-size: 1.1rem;
+	}
+	a {
+		text-decoration: underline;
+		color: #fdfa00;
+	}	
 }
 
 
