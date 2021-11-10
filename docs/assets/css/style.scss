@@ -820,16 +820,25 @@ background-size: auto 100%, auto 100%;
 
 	.ev_bounty_btn {
 
-		h3 {
-			width: 30%;
-			@media screen and (max-width:768px){
-				width: 40%;
-			}
+		h2 {
+			width: 60%;
 			margin: auto;
+			@media screen and (max-width:768px){
+				width: 80%;
+			}
 			img {
 				width: 100%;
 			}
+      @media screen and (max-width:768px){
+        margin-top: 24px;
+      }
 		}
+
+    h3 {
+      margin-top: 12px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
 
 		width: 100%;
 		max-width: 900px;

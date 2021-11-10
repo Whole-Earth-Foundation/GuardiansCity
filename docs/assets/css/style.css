@@ -767,17 +767,27 @@ p:last-child {
   z-index: 500;
   margin-bottom: 36px;
 }
-#ev_bounty .ev_bounty_btn h3 {
-  width: 30%;
+#ev_bounty .ev_bounty_btn h2 {
+  width: 60%;
   margin: auto;
 }
 @media screen and (max-width: 768px) {
-  #ev_bounty .ev_bounty_btn h3 {
-    width: 40%;
+  #ev_bounty .ev_bounty_btn h2 {
+    width: 80%;
   }
 }
-#ev_bounty .ev_bounty_btn h3 img {
+#ev_bounty .ev_bounty_btn h2 img {
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  #ev_bounty .ev_bounty_btn h2 {
+    margin-top: 24px;
+  }
+}
+#ev_bounty .ev_bounty_btn h3 {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   #ev_bounty .ev_bounty_btn {
