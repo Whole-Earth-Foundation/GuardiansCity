@@ -9,7 +9,7 @@
 /*-------------------------------------------------------------- */
 /*Reset
 /*-------------------------------------------------------------- */
-html, body, main, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, main, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -456,7 +456,7 @@ p:last-child {
 }
 
 #ev_story {
-  background-color: #970e0b;
+  background-color: #4898c9;
   position: relative;
 }
 #ev_story .inner {
@@ -468,11 +468,11 @@ p:last-child {
   margin: auto;
   position: relative;
   padding-top: 150px;
-  padding-bottom: 40vw;
+  padding-bottom: 15vw;
 }
 @media screen and (min-width: 1401px) {
   #ev_story .inner {
-    padding-bottom: 350px;
+    padding-bottom: 200px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -502,8 +502,8 @@ p:last-child {
 #ev_story .ev_story_title {
   text-align: center;
   font-weight: bold;
-  color: #fde9d9;
-  text-shadow: 0px 0px 15px #000;
+  color: #fff;
+  text-shadow: 5px 5px 10px rgba(37, 118, 168, 0.6), -5px 5px 10px rgba(37, 118, 168, 0.6), 5px -5px 10px rgba(37, 118, 168, 0.6), -5px -5px 10px rgba(37, 118, 168, 0.6);
   margin-bottom: 25px;
   font-size: 2.2rem;
   font-weight: 600;
@@ -520,14 +520,14 @@ p:last-child {
 #ev_story .ev_story_textbox p {
   text-align: center;
   font-weight: bold;
-  color: #fde9d9;
-  text-shadow: 0px 0px 10px #000;
+  color: #fff;
+  text-shadow: 5px 5px 10px rgba(37, 118, 168, 0.6), -5px 5px 10px rgba(37, 118, 168, 0.6), 5px -5px 10px rgba(37, 118, 168, 0.6), -5px -5px 10px rgba(37, 118, 168, 0.6);
   margin-bottom: 75px;
   font-size: 1.8rem;
 }
 #ev_story .ev_story_textbox p span {
   font-size: 2.2rem;
-  color: #e3d000;
+  color: #fff600;
 }
 @media screen and (max-width: 768px) {
   #ev_story .ev_story_textbox p {
@@ -562,12 +562,16 @@ p:last-child {
   -webkit-transform: translate(-50%, -40%);
           transform: translate(-50%, -40%);
 }
+#ev_story .add_tx {
+  background: #2576a8;
+}
 #ev_story .add_tx p {
   font-weight: bold;
   width: 100%;
   max-width: 800px;
   margin: auto;
   padding: 50px 0 150px 0;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   #ev_story .add_tx p {
@@ -578,7 +582,7 @@ p:last-child {
   }
 }
 #ev_story .add_tx p a {
-  color: #fde9d9;
+  color: #fff;
 }
 
 #ev_event {
@@ -1018,6 +1022,7 @@ p:last-child {
 
 #ev_play {
   position: relative;
+  background: #4898c9;
 }
 #ev_play h1 {
   width: 60%;
@@ -1034,6 +1039,10 @@ p:last-child {
     margin-bottom: 10vw;
   }
 }
+#ev_play .ev_play_note {
+  text-align: center;
+  color: #fff;
+}
 #ev_play .inner {
   width: 100%;
   max-width: 1400px;
@@ -1045,6 +1054,17 @@ p:last-child {
   #ev_play .inner {
     padding: 20vw 5vw;
   }
+}
+#ev_play .btn-line {
+  background: #198fde;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+#ev_play .btn-line::before {
+  background: none;
 }
 #ev_play .evmh_2 {
   width: 500px;
@@ -1067,83 +1087,383 @@ p:last-child {
   margin-top: 9px;
 }
 #ev_play .ev_play_box {
-  background-color: #fde9d9;
-  padding-bottom: 32px;
-  padding-top: 60px;
-}
-@media screen and (max-width: 768px) {
-  #ev_play .ev_play_box {
-    padding: 10vw 0 0 0;
-  }
-}
-#ev_play .ev_play_box .ev_caption {
-  color: #970e0b;
-  width: 94%;
-  margin: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-#ev_play .ev_play_box .ev_caption a {
-  color: #970e0b;
-}
-@media screen and (max-width: 768px) {
-  #ev_play .ev_play_box .ev_caption {
-    width: 100%;
-    padding: 5vw;
-  }
-  #ev_play .ev_play_box .ev_caption + .ev_caption {
-    padding-top: 0;
-  }
-}
-#ev_play .ev_play_box h3 {
-  color: #970e0b;
-  text-align: center;
-  font-size: 2.4rem;
-}
-@media screen and (max-width: 768px) {
-  #ev_play .ev_play_box h3 {
-    font-size: 2rem;
-  }
-}
-#ev_play .ev_play_box ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 94%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 980px;
   margin: auto;
 }
 @media screen and (max-width: 768px) {
-  #ev_play .ev_play_box ul {
+  #ev_play .ev_play_box {
     display: block;
-    width: 100%;
   }
 }
-#ev_play .ev_play_box ul li {
-  width: 33%;
-  padding: 30px;
-  color: #970e0b;
+#ev_play .ev_play_box .ev_play_smartphone {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 32%;
+          flex: 0 0 32%;
+  margin-right: 17px;
 }
 @media screen and (max-width: 768px) {
-  #ev_play .ev_play_box ul li {
-    width: 100%;
-    padding-bottom: 12vw;
-  }
-  #ev_play .ev_play_box ul li + li {
-    border-top: 1px dotted #970e0b;
+  #ev_play .ev_play_box .ev_play_smartphone {
+    width: 200px;
+    margin: 0 auto;
   }
 }
-#ev_play .ev_play_box ul li h4 {
+#ev_play .ev_play_box .ev_play_textbox {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 42%;
+          flex: 0 1 42%;
+  padding: 33px 0;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_box .ev_play_textbox {
+    padding: 0;
+  }
+}
+#ev_play .ev_play_box .ev_play_textbox .ev_play_text {
+  margin-bottom: 42px;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_box .ev_play_textbox .ev_play_text {
+    margin-bottom: 25px;
+  }
+}
+#ev_play .ev_play_accordion {
+  width: 100%;
+  max-width: 1080px;
+  margin: 55px auto auto auto;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion {
+    margin-top: 40px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_accordion_item {
+  margin-bottom: 37px;
+  color: #198fde;
+  font-weight: 600;
+  background: #fff;
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_accordion_item {
+    margin-bottom: 25px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_accordion_item dt {
+  cursor: pointer;
+}
+#ev_play .ev_play_accordion .ev_play_accordion_item:last-child {
+  margin-bottom: 0;
+}
+#ev_play .ev_play_accordion .ev_play_accordion_item:nth-child(2) .ev_play_accordion_head::before {
+  content: "02";
+}
+#ev_play .ev_play_accordion .ev_play_accordion_item:nth-child(3) .ev_play_accordion_head::before {
+  content: "03";
+}
+#ev_play .ev_play_accordion .ev_play_accordion_head {
+  font-size: 2.2rem;
+  letter-spacing: 0.1px;
+  position: relative;
+  padding: 50px 80px 50px 150px;
+  background: #fff;
+  border-radius: 15px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_accordion_head {
+    font-size: 1.5rem;
+    padding: 20px 50px 20px 80px;
+    line-height: 1.5;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_accordion_head::before {
+  content: "01";
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-weight: 700;
+  color: #fff;
+  background: #198fde;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8rem;
+  line-height: 80px;
   text-align: center;
-  font-size: 2rem;
 }
-#ev_play .ev_play_box ul li p {
-  margin-bottom: 21px;
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_accordion_head::before {
+    width: 43px;
+    height: 43px;
+    font-size: 2.2rem;
+    line-height: 43px;
+    left: 10px;
+  }
 }
-#ev_play .ev_play_box ul li:nth-child(3) {
-  padding-bottom: 0;
+#ev_play .ev_play_accordion .ev_play_accordion_head:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_accordion_head:hover {
+    opacity: 1;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_accordion_icon {
+  position: absolute;
+  right: 55px;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  border-top: 4px solid #198fde;
+  border-right: 4px solid #198fde;
+  -webkit-transform: translate(0, -50%) rotate(45deg);
+  transform: translate(0, -50%) rotate(45deg);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_accordion_icon {
+    right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_accordion_icon.is-open {
+  -webkit-transform: translate(0, -50%) rotate(135deg);
+          transform: translate(0, -50%) rotate(135deg);
+}
+#ev_play .ev_play_accordion .ev_play_accordion_body {
+  display: none;
+  background: #fff;
+}
+#ev_play .ev_play_accordion .ev_play_account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 20px 50px 20px;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_account {
+    display: block;
+    padding-bottom: 30px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_account_image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 22%;
+          flex: 0 0 22%;
+  margin-right: 12%;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_account_image {
+    width: 180px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_verification {
+  color: #222222;
+}
+#ev_play .ev_play_accordion .ev_play_verification .ev_btn_wrap {
+  margin-top: 38px;
+}
+#ev_play .ev_play_accordion .ev_play_verification_list {
+  margin-top: 22px;
+}
+#ev_play .ev_play_accordion .ev_play_verification_item {
+  background: #f1f1f1;
+  margin-bottom: 14px;
+  padding: 20px 0 20px 110px;
+  border-radius: 14px;
+  position: relative;
+}
+#ev_play .ev_play_accordion .ev_play_verification_item:last-child {
+  margin-bottom: 0;
+}
+#ev_play .ev_play_accordion .ev_play_verification_item::before {
+  content: "";
+  background: url(../img/ev_play_e-mail.png) no-repeat center center/cover;
+  width: 43px;
+  height: 26px;
+  position: absolute;
+  left: 30px;
+  top: 23px;
+}
+#ev_play .ev_play_accordion .ev_play_verification_item:nth-child(2)::before {
+  background: url(../img/ev_play_twitter.png) no-repeat center center/cover;
+  width: 40px;
+  height: 33px;
+}
+#ev_play .ev_play_accordion .ev_play_verification_item:nth-child(3)::before {
+  background: url(../img/ev_play_earth.png) no-repeat center center/cover;
+  width: 38px;
+  height: 35px;
+}
+#ev_play .ev_play_accordion .ev_play_howto_list {
+  padding: 0 50px 20px;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_howto_list {
+    padding: 0 20px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_howto_item {
+  border-top: 4px solid #f1f1f1;
+  padding: 50px 0;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_howto_item {
+    padding: 30px 0;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_howto_item .ev_btn_wrap {
+  margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_howto_item .ev_btn_wrap {
+    margin-top: 35px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_howto_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (max-width: 1000px) {
+  #ev_play .ev_play_accordion .ev_play_howto_title {
+    display: block;
+    position: relative;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_howto_title .ev_btn_wrap {
+  margin-top: -18px;
+  text-align: right;
+  margin-left: auto;
+}
+#ev_play .ev_play_accordion .ev_play_howto_title .ev_btn_wrap p {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
+@media screen and (max-width: 1000px) {
+  #ev_play .ev_play_accordion .ev_play_howto_title .ev_btn_wrap p {
+    text-align: center;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_howto_title .btn-line {
+  font-size: 1.7rem;
+  width: 200px;
+  height: 43px;
+  letter-spacing: 0.1px;
+  border-radius: 0;
+  background: #000;
+}
+#ev_play .ev_play_accordion .ev_play_howto_title .btn-line span {
+  margin-right: 0;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_howto_title .btn-line span {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_howto_title .btn-line {
+    font-size: 1.1rem;
+    width: 85px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -5px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_howto_title_left {
+  width: 180px;
+  margin-right: 25px;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_howto_title_left {
+    margin: 0;
+    width: 150px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_howto_title_right {
+  font-size: 1.8rem;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_howto_title_right {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_howto_text {
+  color: #222;
+  margin-top: 22px;
+  margin-bottom: 43px;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_howto_text {
+    margin-bottom: 25px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_howto_content {
+  width: 88%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_howto_content {
+    width: 100%;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_war {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_war {
+    padding: 0 20px 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_war .ev_btn_wrap {
+    margin-top: 35px;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_war_image {
+  width: 75%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  #ev_play .ev_play_accordion .ev_play_war_image {
+    width: 100%;
+  }
+}
+#ev_play .ev_play_accordion .ev_play_war_text {
+  color: #222;
+  text-align: center;
+  margin-top: 32px;
+}
+#ev_play .ev_play_accordion .ev_play_war_text a {
+  display: inline-block;
+  color: #198fde;
+  border-bottom: 1px solid #198fde;
+  line-height: 1.5;
 }
 
 .ky_inner {
@@ -2740,7 +3060,7 @@ aside a {
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   position: fixed;
-  background: #06c755;
+  background: #00133a;
   border-radius: 6px 0 0 6px;
   z-index: 200;
   display: block;
@@ -3867,7 +4187,7 @@ aside a.dea::before {
     position: fixed;
     left: 0;
     bottom: -63px;
-    background: #06c755;
+    background: #00133a !important;
     border-radius: 0 6px 0 0;
     z-index: 200;
     display: block;

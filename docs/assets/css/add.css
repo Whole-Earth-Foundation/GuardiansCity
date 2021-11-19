@@ -19,12 +19,23 @@
   text-decoration: underline;
 }
 
+.gblink_nn {
+  display: inline-block;
+  padding-right: 20px;
+  position: relative;
+  background-image: url("../img/ev_gb.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 15px;
+}
+
 .site-wrap {
   overflow: hidden;
 }
 
 .btn-line,
-.btn-wh {
+.btn-wh,
+.btn-bl {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -131,31 +142,38 @@ aside a:hover {
 
 @media screen and (min-width: 961px) {
   .btn-pop:hover {
-    box-shadow: 0px 0px 0 #2d1c60;
-    -webkit-box-shadow: 0px 0px 0 #2d1c60;
-    -webkit-transform: translate(6px, 6px);
-            transform: translate(6px, 6px);
+    box-shadow: 0px 0px 0 #2d1c60 !important;
+    -webkit-box-shadow: 0px 0px 0 #2d1c60 !important;
+    -webkit-transform: translate(6px, 6px) !important;
+            transform: translate(6px, 6px) !important;
   }
 
   .btn-line:hover {
-    box-shadow: 0px 0px 0 #2d1c60;
-    -webkit-box-shadow: 0px 0px 0 #2d1c60;
-    -webkit-transform: translate(6px, 6px);
-            transform: translate(6px, 6px);
+    box-shadow: 0px 0px 0 #fff600 !important;
+    -webkit-box-shadow: 0px 0px 0 #fff600 !important;
+    -webkit-transform: translate(6px, 6px) !important;
+            transform: translate(6px, 6px) !important;
   }
 
   .btn-def:hover {
-    box-shadow: 0px 0px 0 #2d1c60;
-    -webkit-box-shadow: 0px 0px 0 #2d1c60;
-    -webkit-transform: translate(6px, 6px);
-            transform: translate(6px, 6px);
+    box-shadow: 0px 0px 0 #2d1c60 !important;
+    -webkit-box-shadow: 0px 0px 0 #2d1c60 !important;
+    -webkit-transform: translate(6px, 6px) !important;
+            transform: translate(6px, 6px) !important;
   }
 
   .btn-wh:hover {
-    box-shadow: 0px 0px 0 #580806;
-    -webkit-box-shadow: 0px 0px 0 #580806;
-    -webkit-transform: translate(6px, 6px);
-            transform: translate(6px, 6px);
+    box-shadow: 0px 0px 0 #580806 !important;
+    -webkit-box-shadow: 0px 0px 0 #580806 !important;
+    -webkit-transform: translate(6px, 6px) !important;
+            transform: translate(6px, 6px) !important;
+  }
+
+  .btn-bl:hover {
+    box-shadow: 0px 0px 0 #580806 !important;
+    -webkit-box-shadow: 0px 0px 0 #580806 !important;
+    -webkit-transform: translate(6px, 6px) !important;
+            transform: translate(6px, 6px) !important;
   }
 }
 .sns-nav a {

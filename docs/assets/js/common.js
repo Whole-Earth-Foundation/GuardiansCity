@@ -121,6 +121,16 @@ $(function(){
 
 });
 
+// アコーディオン
+// ------------------------------------------------------------------------------------
+$(function(){
+  $(".ev_play_accordion_head").click(function () {
+    $(this).next().slideToggle();
+    $(this).children(".ev_play_accordion_icon").toggleClass("is-open");
+  });
+});
+
+
 
 
 // video
@@ -129,10 +139,10 @@ $(document).on('click','.close_btn, .video_bg',function() {
 	// $(this).parent().find("video").get(0).pause();
 	
 	player.seekTo(0);
-	player2.seekTo(0);
+	// player2.seekTo(0);
 
 	player.pauseVideo();
-	player2.pauseVideo();
+	// player2.pauseVideo();
 
 	$(".follower").removeClass('display_none');
 	$(".video.active").fadeOut(500);
@@ -165,21 +175,21 @@ $(document).on('click','.close_btn, .video_bg',function() {
       },
       height: '360',
       width: '640',
-      videoId: 'e5PyBPkBOmQ',
+      videoId: '1NOsVOvjp38',
       host: 'https://www.youtube-nocookie.com'
     });
-    player2 = new YT.Player('ytplayer2', {
-	  playerVars: { 
-             'autoplay':       0,
-             'controls':       1, 
-             'rel':            0,
-             'showinfo':       0,
-      },
-      height: '360',
-      width: '640',
-      videoId: '8ThUogkxJK4',
-      host: 'https://www.youtube-nocookie.com'
-    });
+   //  player2 = new YT.Player('ytplayer2', {
+	  // playerVars: { 
+   //           'autoplay':       0,
+   //           'controls':       1, 
+   //           'rel':            0,
+   //           'showinfo':       0,
+   //    },
+   //    height: '360',
+   //    width: '640',
+   //    videoId: '8ThUogkxJK4',
+   //    host: 'https://www.youtube-nocookie.com'
+   //  });
   } 
 
 
