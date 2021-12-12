@@ -74,6 +74,17 @@ font-weight: $w;
 	text-decoration: underline;
 }
 
+.gblink_bk {
+	display: inline-block;
+	padding-right: 17px;
+	position: relative;
+	background-image: url("../img/ev_gb_bk.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 15px;
+	text-decoration: underline;
+}
+
 .gblink_nn {
 	display: inline-block;
 	padding-right: 20px;

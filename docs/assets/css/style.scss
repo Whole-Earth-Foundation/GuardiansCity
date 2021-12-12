@@ -197,6 +197,45 @@ p{
 		max-width: 1400px;
 		margin: auto;
 
+		.ev_kv_comment {
+			position: absolute;
+			width: 80%;
+			background-color: #fff;
+			color: #222;
+			border-radius: 6px;
+			padding: 20px;
+			bottom: 20px;
+			left: 50%;
+
+			@media screen and (max-width:768px){
+				width: 90%;
+				bottom: 3vw;
+			}
+			text-align: center;
+			-webkit-transform: translate(-50%,0);
+			   -moz-transform: translate(-50%,0);
+			    -ms-transform: translate(-50%,0);
+			     -o-transform: translate(-50%,0);
+			        transform: translate(-50%,0);
+
+			        p {
+			        	font-weight: bold !important;
+			        }
+
+			        a {
+			        	color: #222;
+			        }
+
+			        h2 {
+			        	font-size: 3rem;
+			        	@media screen and (max-width:768px){
+			        		font-size: 2.5rem;
+			        		line-height: 1.5;
+			        		margin-bottom: 1vw;
+			        	}
+			        	color: #eb162f;
+			        }
+		}
 
 		.kv_bannar {
 			position: absolute;
@@ -820,6 +859,15 @@ background-size: auto 100%, auto 100%;
 		text-align: center;
 		p {
 			margin-bottom: 10px;
+		}
+
+		.ect_1 {
+			color: #222;
+			font-weight: bold;
+			letter-spacing: 0;
+			a {
+				color: #222;
+			}
 		}
 		margin-bottom: 50px;
 		@media screen and (max-width:768px){

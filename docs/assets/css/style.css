@@ -169,6 +169,42 @@ p:last-child {
   max-width: 1400px;
   margin: auto;
 }
+.ev_kv_main .inner .ev_kv_comment {
+  position: absolute;
+  width: 80%;
+  background-color: #fff;
+  color: #222;
+  border-radius: 6px;
+  padding: 20px;
+  bottom: 20px;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+@media screen and (max-width: 768px) {
+  .ev_kv_main .inner .ev_kv_comment {
+    width: 90%;
+    bottom: 3vw;
+  }
+}
+.ev_kv_main .inner .ev_kv_comment p {
+  font-weight: bold !important;
+}
+.ev_kv_main .inner .ev_kv_comment a {
+  color: #222;
+}
+.ev_kv_main .inner .ev_kv_comment h2 {
+  font-size: 3rem;
+  color: #eb162f;
+}
+@media screen and (max-width: 768px) {
+  .ev_kv_main .inner .ev_kv_comment h2 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    margin-bottom: 1vw;
+  }
+}
 .ev_kv_main .inner .kv_bannar {
   position: absolute;
   width: 27%;
@@ -757,6 +793,14 @@ p:last-child {
 }
 #ev_bounty .ev_bounty_textbox p {
   margin-bottom: 10px;
+}
+#ev_bounty .ev_bounty_textbox .ect_1 {
+  color: #222;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+#ev_bounty .ev_bounty_textbox .ect_1 a {
+  color: #222;
 }
 @media screen and (max-width: 768px) {
   #ev_bounty .ev_bounty_textbox {

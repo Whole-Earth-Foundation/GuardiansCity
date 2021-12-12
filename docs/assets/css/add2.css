@@ -687,7 +687,7 @@ kanya_notes
 }
 @media screen and (max-width: 768px) {
   #ev_bounty .eb_1 {
-    top: 69vw;
+    top: 75vw;
     width: 70%;
     -webkit-transform: translate(-60%, 0);
             transform: translate(-60%, 0);
@@ -704,7 +704,7 @@ kanya_notes
 @media screen and (max-width: 768px) {
   #ev_bounty .eb_2 {
     width: 70%;
-    top: 69vw;
+    top: 75vw;
     -webkit-transform: translate(60%, 0);
             transform: translate(60%, 0);
   }
