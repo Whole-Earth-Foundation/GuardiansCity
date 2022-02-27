@@ -175,7 +175,7 @@ $(document).on('click','.close_btn, .video_bg',function() {
       },
       height: '360',
       width: '640',
-      videoId: '1NOsVOvjp38',
+      videoId: 'mPEIQFw0iTg',
       host: 'https://www.youtube-nocookie.com'
     });
    //  player2 = new YT.Player('ytplayer2', {
