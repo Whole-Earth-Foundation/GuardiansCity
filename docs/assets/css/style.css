@@ -624,9 +624,9 @@ p:last-child {
 #ev_event {
   background-color: #c92b23;
 }
-#ev_event p {
+/* #ev_event p {
   color: #970e0b;
-}
+} */
 #ev_event h1 {
   width: 32%;
   margin: auto;
