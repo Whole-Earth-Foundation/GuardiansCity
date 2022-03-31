@@ -19,6 +19,16 @@
   text-decoration: underline;
 }
 
+.gblink_nn {
+  display: inline-block;
+  padding-right: 20px;
+  position: relative;
+  background-image: url("../img/ev_gb.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 15px;
+}
+
 .site-wrap {
   overflow: hidden;
 }

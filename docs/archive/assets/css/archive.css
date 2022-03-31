@@ -5,11 +5,17 @@ a:hover{
 .arc_container {
     width: 90%;
     max-width: 1024px;
-    margin: 120px auto 160px;
+    margin: 80px auto;
+}
+
+.arc_logo {
+    display: block;
+    width: 480px;
+    margin: 0 auto 32px;
 }
 
 .arc_title {
-    font-size: 40px;
+    font-size: 32px;
     color: #fff;
     text-align: center;
 }
@@ -23,7 +29,7 @@ a:hover{
     gap: 48px 32px;
     width: 100%;
     max-width: 1375px;
-    margin: 32px auto;
+    margin: 16px auto;
 }
 
 .arc_item{
@@ -70,8 +76,17 @@ a:hover{
 }
 
 @media screen and (max-width: 768px) {
+    .arc_logo {
+        width: 320px;
+        margin-bottom: 12px;
+    }
+    .arc_title {
+        font-size: 20px;
+    }
     .arc_lists{
         max-width: 324px;
+        margin-top: 8px;
+        gap: 24px;
     }
     .arc_item {
         width: 100%;

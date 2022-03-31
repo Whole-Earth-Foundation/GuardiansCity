@@ -378,10 +378,19 @@ kanya_notes
 .ev_archive_container{
   width: 90%;
 	max-width: 1120px;
-	margin: 40px auto;
+	margin: 64px auto;
 }
+
 .ev_archive_title{
 	text-align: center;
+}
+
+.ev_archive_logo{
+  width: 360px;
+  margin: 0 0 16px;
+}
+
+.ev_archive_title h3 {
   color: #fff;
   font-size: 24px;
 }
@@ -454,11 +463,21 @@ kanya_notes
   .ev_archive_item:nth-child(n+2) {
     display: none;
   }
+  .ev_archive_title{
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 750px) {
   .ev_archive_container {
     width: 100%;
+  }
+  .ev_archive_logo{
+    width: 240px;
+    margin: 0 0 8px;
+  }
+  .ev_archive_title h3 {
+    font-size: 16px;
   }
   .ev_archive_item_text{
     padding: 7px 0;
