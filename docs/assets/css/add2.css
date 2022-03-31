@@ -416,12 +416,6 @@ kanya_notes
   height: 100%;
 }
 
-.ev_archive_item:hover{
-  box-shadow: none;
-  opacity: .8;
-  transform: translate(6px, 6px);
-}
-
 .ev_archive_item_box {
   padding: 8px;
 }
@@ -451,6 +445,15 @@ kanya_notes
   border-right: 2px solid #2576A8;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+/* モバイルでホバーさせないため */
+@media screen and(min-width: 750px) {
+  .ev_archive_item:hover{
+    box-shadow: none;
+    opacity: .8;
+    transform: translate(6px, 6px);
+  }
 }
 
 @media screen and (max-width: 1164px) {
