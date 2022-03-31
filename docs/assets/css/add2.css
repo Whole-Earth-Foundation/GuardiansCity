@@ -376,6 +376,7 @@ kanya_notes
 
 /* アーカイブページここから */
 .ev_archive_container{
+  width: 90%;
 	max-width: 1120px;
 	margin: 40px auto;
 }
@@ -443,10 +444,26 @@ kanya_notes
   transform: rotate(45deg);
 }
 
+@media screen and (max-width: 1164px) {
+  .ev_archive_container {
+    margin: 32px auto 144px;
+  }
+  .ev_archive_lists {
+    justify-content: center;
+  }
+  .ev_archive_item:nth-child(n+2) {
+    display: none;
+  }
+}
 
-/* .ev_archive_all_links {
-  text-align: left;
-} */
+@media screen and (max-width: 750px) {
+  .ev_archive_container {
+    width: 100%;
+  }
+  .ev_archive_item_text{
+    padding: 7px 0;
+  }
+}
 /* アーカイブページここまで */
 
 #ev_mission {
