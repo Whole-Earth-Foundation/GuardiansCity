@@ -175,22 +175,22 @@ $(document).on('click','.close_btn, .video_bg',function() {
       },
       height: '360',
       width: '640',
-      videoId: 'mPEIQFw0iTg',
+      videoId: '0N8L1-uC32k',
       host: 'https://www.youtube-nocookie.com'
     });
-   //  player2 = new YT.Player('ytplayer2', {
-	  // playerVars: { 
-   //           'autoplay':       0,
-   //           'controls':       1, 
-   //           'rel':            0,
-   //           'showinfo':       0,
-   //    },
-   //    height: '360',
-   //    width: '640',
-   //    videoId: '8ThUogkxJK4',
-   //    host: 'https://www.youtube-nocookie.com'
-   //  });
-  } 
+    player2 = new YT.Player('ytplayer2', {
+	  playerVars: { 
+             'autoplay':       0,
+             'controls':       1, 
+             'rel':            0,
+             'showinfo':       0,
+      },
+      height: '360',
+      width: '640',
+      videoId: '8ThUogkxJK4',
+      host: 'https://www.youtube-nocookie.com'
+    });
+  }
 
 
 

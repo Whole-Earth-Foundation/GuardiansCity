@@ -1399,8 +1399,8 @@ p:last-child {
   margin-left: auto;
 }
 #ev_play .ev_play_accordion .ev_play_howto_title .ev_btn_wrap p {
-  background-color: #000;
-  color: #fff;
+  background-color: #00133A;
+  color: #ffffff;
   padding: 5px 10px;
   font-size: 1.3rem;
   margin-top: 15px;
@@ -1476,6 +1476,51 @@ p:last-child {
     width: 100%;
   }
 }
+
+
+
+.ev_play_howto_post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 240px;
+}
+
+.ev_play_howto_post-item {
+  text-align: center;
+  border: 2px solid #F1F1F1;
+  border-radius: 8px;
+}
+.ev_play_howto_post-item:nth-child(2){
+  margin-left: 32px;
+}
+
+.ev_play_howto_post-item p {
+  font-weight: 600;
+  font-size: 24px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.ev_play_howto_post-item img {
+  height: 239px;
+}
+
+@media screen and (max-width: 768px) {
+  .ev_play_howto_post {
+    display: block;
+    height: auto;
+  }
+  .ev_play_howto_post-item:nth-child(2){
+    margin: 16px 0 0 0;
+  }
+
+  .ev_play_howto_post-item p {
+    font-size: 18px;
+  }
+}
+
+
+
 #ev_play .ev_play_accordion .ev_play_war {
   padding-bottom: 50px;
 }
@@ -2025,7 +2070,7 @@ p:last-child {
 }
 .btn-line.dea::before {
   content: "";
-  background: url(../img/icone_dea.png) no-repeat;
+  background: url(../img/icon_dog.png) no-repeat;
   background-size: contain;
   background-position: center;
   width: 47px;
@@ -3109,7 +3154,7 @@ aside a {
   z-index: 200;
   display: block;
   width: 64px;
-  height: 210px;
+  height: 252px;
   color: #fff;
   letter-spacing: 0.4em;
   font-weight: 700;
@@ -3152,7 +3197,7 @@ aside a::before {
 }
 aside a.dea::before {
   content: "";
-  background: url(../img/icone_dea.png) no-repeat;
+  background: url(../img/icon_dog.png) no-repeat;
   background-size: contain;
   background-position: center;
   width: 45px;
@@ -4263,7 +4308,7 @@ aside a.dea::before {
   }
   aside a.dea::before {
     content: "";
-    background: url(../img/icone_dea.png) no-repeat;
+    background: url(../img/icon_dog.png) no-repeat;
     background-size: contain;
     background-position: center;
     width: 45px;

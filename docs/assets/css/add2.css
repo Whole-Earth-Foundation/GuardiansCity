@@ -4,7 +4,7 @@ body {
 }
 
 .btn-line {
-  width: 280px;
+  width: 340px;
   margin: 20px auto 0;
   color: #fff;
   font-weight: 700;
@@ -29,7 +29,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .btn-line {
-    width: 68vw;
+    width: 82vw;
     height: 16vw;
   }
 }
@@ -1688,6 +1688,12 @@ kanya_movies
           transform: translate(-50%, -50%);
   pointer-events: none;
 }
+
+.video_link2 {
+  display: block;
+  margin-top: 48px;
+}
+
 @media screen and (max-width: 768px) {
   .ky_movie-item-movie p {
     width: 30vw;
@@ -2153,7 +2159,7 @@ kanya_movies
     border-radius: 0 6px 0 0;
     z-index: 200;
     display: block;
-    width: 210px;
+    width: 232px;
     height: 63px;
     color: #fff;
     letter-spacing: 0.4em;
@@ -2166,7 +2172,7 @@ kanya_movies
   aside a span {
     position: absolute;
     top: 50%;
-    left: 80px;
+    left: 68px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
   }
@@ -2181,7 +2187,7 @@ kanya_movies
   }
   aside a.dea::before {
     content: "";
-    background: url(../img/icone_dea.png) no-repeat;
+    /* background: url(../img/icone_dea.png) no-repeat; */
     background-size: contain;
     background-position: center;
     width: 45px;
