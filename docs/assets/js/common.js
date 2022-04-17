@@ -187,7 +187,7 @@ $(document).on('click','.close_btn, .video_bg',function() {
       },
       height: '360',
       width: '640',
-      videoId: '8ThUogkxJK4',
+      videoId: 'r0Grc-927x8',
       host: 'https://www.youtube-nocookie.com'
     });
   }
