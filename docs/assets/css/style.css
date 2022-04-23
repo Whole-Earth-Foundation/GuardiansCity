@@ -1519,6 +1519,31 @@ p:last-child {
   }
 }
 
+.ev_play_war_image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ev_play_syokin {
+  width: 360px;
+}
+
+.ev_play_syokin_text {
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .ev_play_war_image {
+    display: block;
+  }
+  .ev_play_syokin {
+    width: 320px;
+  }
+  .ev_play_syokin_text {
+    margin-top: 16px;
+  }
+}
 
 
 #ev_play .ev_play_accordion .ev_play_war {
