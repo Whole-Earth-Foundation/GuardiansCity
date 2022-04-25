@@ -171,14 +171,14 @@ p:last-child {
 }
 .ev_kv_main .inner .ev_kv_comment {
   position: absolute;
-  width: 80%;
+  width: 68%;
   background-color: #fff;
   color: #222;
   border-radius: 6px;
-  padding: 20px;
-  bottom: 20px;
+  padding: 16px;
+  bottom: 8px;
   left: 50%;
-  text-align: center;
+  text-align: left;
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }
@@ -198,6 +198,22 @@ p:last-child {
   font-size: 3rem;
   color: #eb162f;
 }
+
+.ev_kv_comment p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .ev_kv_main .inner .ev_kv_commentt {
+    padding: 8px;
+  }
+  .ev_kv_comment p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .ev_kv_main .inner .ev_kv_comment h2 {
     font-size: 2.5rem;
