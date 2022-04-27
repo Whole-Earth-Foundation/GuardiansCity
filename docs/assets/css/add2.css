@@ -759,7 +759,7 @@ kanya_notes
 }
 #ev_bounty h1 {
   width: 50%;
-  margin: auto;
+  margin: 72px auto 0;
   display: block;
   margin-bottom: 20px;
 }
@@ -782,6 +782,7 @@ kanya_notes
 @media screen and (max-width: 768px) {
   #ev_bounty.enchou h1 {
     width: 320px;
+    margin-top: 40px;
   }
   #ev_bounty h1 .ev_bounty_title_img {
     width: 320px;
@@ -802,14 +803,14 @@ kanya_notes
 #ev_bounty .eb_1 {
   position: absolute;
   left: 0;
-  top: 96px;
+  top: 168px;
   width: 500px;
   -webkit-transform: translate(-30%, 0);
           transform: translate(-30%, 0);
 }
 @media screen and (max-width: 768px) {
   #ev_bounty .eb_1 {
-    top: 32vw;
+    top: 42vw;
     width: 70%;
     -webkit-transform: translate(-60%, 0);
             transform: translate(-60%, 0);
@@ -818,7 +819,7 @@ kanya_notes
 #ev_bounty .eb_2 {
   position: absolute;
   right: 0;
-  top: 96px;
+  top: 168px;
   width: 500px;
   -webkit-transform: translate(30%, 0);
           transform: translate(30%, 0);
@@ -826,7 +827,7 @@ kanya_notes
 @media screen and (max-width: 768px) {
   #ev_bounty .eb_2 {
     width: 70%;
-    top: 32vw;
+    top: 42vw;
     -webkit-transform: translate(60%, 0);
             transform: translate(60%, 0);
   }
