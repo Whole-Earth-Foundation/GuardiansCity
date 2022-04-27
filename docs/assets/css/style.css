@@ -171,7 +171,7 @@ p:last-child {
 }
 .ev_kv_main .inner .ev_kv_comment {
   position: absolute;
-  width: 68%;
+  width: 63%;
   background-color: #fff;
   color: #222;
   border-radius: 6px;
@@ -733,9 +733,9 @@ p:last-child {
 }
 #ev_bounty .inner {
   width: 100%;
-  max-width: 1400px;
-  margin: auto;
-  padding: 0 0 150px 0;
+  /* max-width: 1400px;
+  margin: auto; */
+  padding: 100px 0 150px 0;
   position: relative;
 }
 @media screen and (max-width: 768px) {
@@ -1786,6 +1786,7 @@ p:last-child {
   border-top: dotted 1px #970e0b;
   padding-top: 32px;
 }
+
 #ev_sns .ev_sns_flow {
   margin-bottom: 62px;
 }
