@@ -1518,7 +1518,7 @@ p:last-child {
   border-bottom: 1px solid #f1f1f1;
 }
 .ev_play_howto_post-item img {
-  height: 239px;
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
