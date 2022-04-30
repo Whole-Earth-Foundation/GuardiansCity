@@ -1520,6 +1520,7 @@ color
 .ky_join-terms .ky_join-terms-rule-detail a {
   color: #222;
 }
+
 @media screen and (max-width: 767px) {
   .ky_join-terms {
     width: 90%;
@@ -1570,6 +1571,16 @@ color
 
 .ky_join-terms-rule-detail a {
   color: #851815;
+}
+
+.ky_join-terms-rule-image {
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .ky_join-terms-rule-image {
+    margin-top: 12px;
+  }
 }
 
 /* -----------------------
