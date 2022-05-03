@@ -175,9 +175,9 @@ p:last-child {
   background-color: #fff;
   color: #222;
   border-radius: 6px;
-  padding: 16px;
+  padding: 12px;
   bottom: 8px;
-  left: 50%;
+  left: 58%;
   text-align: left;
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
@@ -185,7 +185,8 @@ p:last-child {
 @media screen and (max-width: 768px) {
   .ev_kv_main .inner .ev_kv_comment {
     width: 90%;
-    bottom: 3vw;
+    bottom: 0vw;
+    left: 50%;
   }
 }
 .ev_kv_main .inner .ev_kv_comment p {
