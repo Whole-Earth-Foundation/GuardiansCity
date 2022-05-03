@@ -222,6 +222,11 @@ p:last-child {
     margin-bottom: 1vw;
   }
 }
+
+.ev_kv_main .inner .ev_kv_comment a {
+  color: #DE0000;
+}
+
 .ev_kv_main .inner .kv_bannar {
   position: absolute;
   width: 27%;
@@ -252,6 +257,51 @@ p:last-child {
 .ev_kv_main .inner .kv_bg {
   width: 100%;
 }
+
+.ev_kv_imgtext {
+  position: absolute;
+  top: 49%;
+  right: 8%;
+  width: 400px;
+  height: 160px;
+  color: #222222;
+  background-color: #fff;
+  border: 5px solid #DE0000;
+}
+
+.ev_kv_imgtext p {
+  padding: 8px;
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+.ev_kv_imgtext_twi {
+  font-size: 18px;
+}
+
+.ev_kv_imgtext_twi .gblink_bk {
+  color: #DE0000;
+}
+
+@media screen and (max-width: 769px) {
+  .ev_kv_imgtext {
+    top: 26%;
+    right: 2vw;
+    width: 240px;
+    height: 104px;
+    border: 3px solid #DE0000;
+
+  }
+  .ev_kv_imgtext p {
+    padding: 4px;
+    font-size: 13px;
+  }
+  .ev_kv_imgtext_twi {
+    font-size: 12px;
+  }
+}
+
 .ev_kv_main .inner .kv_p {
   position: absolute;
 }
