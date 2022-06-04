@@ -171,21 +171,22 @@ p:last-child {
 }
 .ev_kv_main .inner .ev_kv_comment {
   position: absolute;
-  width: 80%;
+  width: 63%;
   background-color: #fff;
   color: #222;
   border-radius: 6px;
-  padding: 20px;
-  bottom: 20px;
-  left: 50%;
-  text-align: center;
+  padding: 12px;
+  bottom: 8px;
+  left: 58%;
+  text-align: left;
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }
 @media screen and (max-width: 768px) {
   .ev_kv_main .inner .ev_kv_comment {
     width: 90%;
-    bottom: 3vw;
+    bottom: 0vw;
+    left: 50%;
   }
 }
 .ev_kv_main .inner .ev_kv_comment p {
@@ -198,6 +199,22 @@ p:last-child {
   font-size: 3rem;
   color: #eb162f;
 }
+
+.ev_kv_comment p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .ev_kv_main .inner .ev_kv_commentt {
+    padding: 8px;
+  }
+  .ev_kv_comment p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .ev_kv_main .inner .ev_kv_comment h2 {
     font-size: 2.5rem;
@@ -205,6 +222,11 @@ p:last-child {
     margin-bottom: 1vw;
   }
 }
+
+.ev_kv_main .inner .ev_kv_comment a {
+  color: #DE0000;
+}
+
 .ev_kv_main .inner .kv_bannar {
   position: absolute;
   width: 27%;
@@ -235,6 +257,51 @@ p:last-child {
 .ev_kv_main .inner .kv_bg {
   width: 100%;
 }
+
+.ev_kv_imgtext {
+  position: absolute;
+  top: 49%;
+  right: 8%;
+  width: 400px;
+  height: 160px;
+  color: #222222;
+  background-color: #fff;
+  border: 5px solid #DE0000;
+}
+
+.ev_kv_imgtext p {
+  padding: 8px;
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+.ev_kv_imgtext_twi {
+  font-size: 18px;
+}
+
+.ev_kv_imgtext_twi .gblink_bk {
+  color: #DE0000;
+}
+
+@media screen and (max-width: 769px) {
+  .ev_kv_imgtext {
+    top: 26%;
+    right: 2vw;
+    width: 240px;
+    height: 104px;
+    border: 3px solid #DE0000;
+
+  }
+  .ev_kv_imgtext p {
+    padding: 4px;
+    font-size: 13px;
+  }
+  .ev_kv_imgtext_twi {
+    font-size: 12px;
+  }
+}
+
 .ev_kv_main .inner .kv_p {
   position: absolute;
 }
@@ -717,9 +784,9 @@ p:last-child {
 }
 #ev_bounty .inner {
   width: 100%;
-  max-width: 1400px;
-  margin: auto;
-  padding: 0 0 150px 0;
+  /* max-width: 1400px;
+  margin: auto; */
+  padding: 100px 0 150px 0;
   position: relative;
 }
 @media screen and (max-width: 768px) {
@@ -1502,7 +1569,7 @@ p:last-child {
   border-bottom: 1px solid #f1f1f1;
 }
 .ev_play_howto_post-item img {
-  height: 239px;
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -1519,6 +1586,31 @@ p:last-child {
   }
 }
 
+.ev_play_war_image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ev_play_syokin {
+  width: 360px;
+}
+
+.ev_play_syokin_text {
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .ev_play_war_image {
+    display: block;
+  }
+  .ev_play_syokin {
+    width: 320px;
+  }
+  .ev_play_syokin_text {
+    margin-top: 16px;
+  }
+}
 
 
 #ev_play .ev_play_accordion .ev_play_war {
@@ -1745,6 +1837,7 @@ p:last-child {
   border-top: dotted 1px #970e0b;
   padding-top: 32px;
 }
+
 #ev_sns .ev_sns_flow {
   margin-bottom: 62px;
 }
@@ -3610,7 +3703,7 @@ aside a.dea::before {
   }
   .btn-line span {
     font-size: 1.45rem;
-    margin-right: -3rem;
+    margin-right: -4rem;
   }
   .btn-line::before {
     content: "";
