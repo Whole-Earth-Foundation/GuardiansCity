@@ -24,7 +24,6 @@ a:hover{
 
 .arc_lists{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     gap: 48px 32px;
     width: 100%;
