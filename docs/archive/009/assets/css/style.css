@@ -286,16 +286,16 @@ p:last-child {
 
 @media screen and (max-width: 769px) {
   .ev_kv_imgtext {
-    top: 28%;
+    top: 26%;
     right: 2vw;
     width: 240px;
-    /* height: 96px; */
+    height: 104px;
     border: 3px solid #DE0000;
 
   }
   .ev_kv_imgtext p {
-    padding: 3px;
-    font-size: 12px;
+    padding: 4px;
+    font-size: 13px;
   }
   .ev_kv_imgtext_twi {
     font-size: 12px;
@@ -2146,7 +2146,7 @@ p:last-child {
   -webkit-box-shadow: 6px 6px 0 #7d0a08;
 }
 .btn-line span {
-  margin-right: -6rem;
+  margin-right: -2rem;
 }
 .btn-line::before {
   content: "";
