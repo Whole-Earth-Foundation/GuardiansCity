@@ -307,6 +307,7 @@ p:last-child {
   }
   .text__bold {
     font-size: 16px;
+  border-bottom: 2px solid #111;
   }
   .ev_kv_imgtext p {
     padding: 3px;
