@@ -489,7 +489,7 @@ kanya_notes
 /* アーカイブページここまで */
 
 #ev_mission {
-  margin-top: 0px;
+  margin-top: 32px;
   background: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -513,9 +513,10 @@ kanya_notes
 }
 #ev_mission .inner {
   width: 100%;
+  height: 780px;
   max-width: 1400px;
   margin: auto;
-  padding: 100px 0 100px 50px;
+  padding: 150px 0 150px 50px;
   position: relative;
 }
 @media screen and (max-width: 768px) {
@@ -644,9 +645,9 @@ kanya_notes
 }
 #ev_mission .map {
   position: absolute;
-  width: 53%;
   top: 5%;
   right: 0;
+  width: 53%;
 }
 @media screen and (max-width: 768px) {
   #ev_mission .map {

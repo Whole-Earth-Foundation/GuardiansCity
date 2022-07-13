@@ -507,12 +507,12 @@ p:last-child {
     border-radius: 10px;
   }
 }
-#ev_mission .map {
+/* #ev_mission .map {
   position: absolute;
   width: 53%;
   top: 15%;
   right: 0;
-}
+} */
 @media screen and (max-width: 768px) {
   #ev_mission .map {
     position: static;

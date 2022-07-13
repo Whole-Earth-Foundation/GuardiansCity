@@ -399,6 +399,7 @@ kanya_notes
 }
 #ev_mission .inner {
   width: 100%;
+  height: 780px;
   max-width: 1400px;
   margin: auto;
   padding: 100px 0 100px 50px;
