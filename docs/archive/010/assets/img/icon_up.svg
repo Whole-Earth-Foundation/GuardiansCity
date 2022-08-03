@@ -1,0 +1,19 @@
+<svg id="グループ_397" data-name="グループ 397" xmlns="http://www.w3.org/2000/svg" width="54.28" height="62.5" viewBox="0 0 54.28 62.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fde9d9;
+        stroke-linecap: round;
+        stroke-width: 6.002px;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <path id="長方形_20" data-name="長方形 20" class="cls-1" d="M2523.8,31340.8l24.14-24.1,24.15,24.1" transform="translate(-2520.81 -31313.7)"/>
+  <path id="シェイプ_580" data-name="シェイプ 580" class="cls-2" d="M2547.94,31337.4v35.8" transform="translate(-2520.81 -31313.7)"/>
+</svg>
