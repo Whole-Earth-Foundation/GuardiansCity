@@ -163,6 +163,24 @@ p:last-child {
   text-align: center;
 }
 
+.ev_play_btn_container {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-top: 24px;
+}
+
+.ev_app_btn_container {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 12px auto 0;
+}
+
+.ev_play_btn_right {
+  margin-right: 16px;
+}
+
 .ev_kv_main .inner {
   position: relative;
   width: 100%;
@@ -187,6 +205,13 @@ p:last-child {
     width: 90%;
     bottom: 0vw;
     left: 50%;
+  }
+  .ev_play_btn_container {
+    width: 280px;
+    margin: 12px auto 0;
+  }
+  .ev_app_btn_container {
+    width: 280px;
   }
 }
 .ev_kv_main .inner .ev_kv_comment p {
@@ -1250,6 +1275,7 @@ p:last-child {
 @media screen and (max-width: 768px) {
   #ev_play .ev_play_box .ev_play_textbox {
     padding: 0;
+    margin-top: 16px;
   }
 }
 #ev_play .ev_play_box .ev_play_textbox .ev_play_text {
