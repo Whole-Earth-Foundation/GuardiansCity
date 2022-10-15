@@ -773,11 +773,11 @@ kanya_notes
   width: 100%;
 }
 #ev_bounty.enchou h1 {
-  width: 480px;
+  width: 360px;
 }
 
 #ev_bounty h1 .ev_bounty_title_img {
-  width: 480px;
+  width: 360px;
 }
 
 @media screen and (max-width: 768px) {
